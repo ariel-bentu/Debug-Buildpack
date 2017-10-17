@@ -1,0 +1,7 @@
+#!/bin/bash
+
+app_dir=$1
+cache_dir=$2
+dep_dir=$3
+index=$4
+

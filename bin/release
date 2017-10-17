@@ -1,0 +1,11 @@
+#!/bin/bash
+
+app_dir=$1
+
+file = $app_dir + '/java_buildpack_release.yml'
+if [! -e "$file"] 
+    echo "Error: this buildpack is only to be used with Java Build Pack"
+    exit 1    
+fi    
+ 
+cat $file 
